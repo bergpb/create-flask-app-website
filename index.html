@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="/prism.css" />
+
+    <style>
+      .number {
+        align-items: none;
+        background-color: transparent;
+        border-radius: 0px;
+        display: inline-flex;
+        font-size: inherit !important;
+        height: inherit !important;
+        justify-content: inherit;
+        margin-right: 0px;
+        min-width: inherit;
+        padding: 0px;
+        text-align: inherit;
+        vertical-align: inherit;
+      }
+
+      .os span {
+        margin-right: 4rem;
+      }
+
+      .install p {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-black is-bold is-large flask-app">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-mobile is-centered">
+            <div class="column is-four-fifths has-text-centered">
+              <h1 class="title is-size-2 is-spaced is-uppercase">
+                Create Flask App
+              </h1>
+            </div>
+          </div>
+
+          <div class="columns is-multiline is-centered">
+            <div class="column is-four-fifths">
+              <div class="install">
+                <p class="is-size-5">
+                  <i class="fab fa-linux"></i> On Linux run commands bellow:
+                </p>
+
+                <pre><code class="language-bash">$ curl https://storage.googleapis.com/spacedevs_storage_intervalo_1/create-flask-app
+> ~/.local/bin/create-flask-app
+$ sudo chmod -R 777 ~/.local/bin/create-flask-app </code></pre>
+                <p class="is-size-5">
+                  and then execute the follows command for create a project
+                  using cli:
+                </p>
+                <pre><code class="language-bash">$ create-flask-app myproject_name</code></pre>
+              </div>
+            </div>
+            <div class="column is-four-fifths">
+              <div class="install">
+                <p class="is-size-5">
+                  <i class="fab fa-windows"></i>
+                  For take <strong>create-flask-app</strong> for Windows 10
+                  click
+                  <a
+                    href="https://storage.googleapis.com/spacedevs_storage_intervalo_1/create-flask-app.exe"
+                    >here</a
+                  >
+                  to download of binary. After and same folder, run the command
+                  to PowerShell for create a project:
+                </p>
+
+                <pre><code class="language-bash">$ create-flask-app.exe myproject_name</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="/prism.js"></script>
+  </body>
+</html>
